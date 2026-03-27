@@ -43,8 +43,12 @@ th{
 tr:hover td{
     background-color:#E3F9F6;
 }
+td {
+    padding: 4px;
+}
 td:nth-child(even){
     text-align: left;
+    list-style-position: inside;
 }
 img, table, th, td{
     opacity: 1;
